@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Clean old output
+# Clean old output 
 echo "🧹 Removing old build folders..."
 rm -rf _site dist
 

@@ -10,4 +10,4 @@ module.exports = function(eleventyConfig) {
       output: "dist"
     }
   };
-}; // 👈 This closing brace and semicolon are important
+}; // 👈 This closing brace and semicolon are important 
