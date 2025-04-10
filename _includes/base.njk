@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title or "YKCPA" }}</title>
+</head>
+<body>
+  <header>
+    <h1><a href="/">YKCPA</a></h1>
+    <hr>
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <hr>
+    <p>© {{ now | date: "%Y" }} Yehoshua Krupnick CPA</p>
+  </footer>
+</body>
+</html>
