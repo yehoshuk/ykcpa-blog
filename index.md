@@ -1,1 +1,6 @@
-# Hey! Welcome to YKCPA\!
+---
+layout: base.njk
+title: Welcome
+---
+
+Welcome to YKCPA!
